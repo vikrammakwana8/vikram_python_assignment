@@ -151,6 +151,36 @@ while a<5:
    else:
      print( blood_group  + " can receive blood from O-")
      
+
+#WAP to print each fruit in list using simple for loop. List1 (apple,banana,mango)
+l=["apple","banana","mango"]
+for i in l:
+  print(i)
+  
+  
+#WAP to find the length of string using simple for loop List1 (apple,banana,mango) 
+l=["apple","banana","mango"]
+for i in l:
+  print(i,"and length is",len(i))
+
+# WAP to find particular string using simple for loop and simple if condition
+l=["apple","banana","mango"]
+c=0
+for i in l:
+  if i=="banana":
+    c=c+1
+    break
+
+  else:
+    None
+
+if c==1:
+  print("found")
+
+else:
+  print("not found")
+
+
 (9)W.A.P to skip the (Banana) from the list using Continue Statement List1 -(apple,banana,mango)
 l=["apple","banana","mango"]
 for i in l:
