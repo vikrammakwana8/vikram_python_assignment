@@ -1,6 +1,7 @@
 # vikram_python_assignment
  
   (1)How to the python code Structure work?
+  The python compiler reads a python source code or instruction line by line.
  
  
  (2)How to create variable inpython?
